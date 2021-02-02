@@ -1,0 +1,38 @@
+
+.btn-primary {
+	background-color: salmon;
+	border-color: salmon;
+}
+
+.btn-primary:hover {
+	background-color: red;
+	border-color: red;
+}
+
+.navbar {
+	background: salmon;
+}
+
+.jumbotron {
+	padding: 176px 0 120px;
+	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/conf.jpeg') no-repeat center / cover;
+	color: #fff;
+}
+
+.speakers {
+	padding: 60px 0;
+}
+
+.speakers .card {
+	margin-bottom: 20px;
+}
+
+.register {
+	padding-bottom: 60px;
+}
+
+@media only screen and (min-width: 768px) {
+	.speakers .card-body {
+		height: 252px;
+	}
+}
